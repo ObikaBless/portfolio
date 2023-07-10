@@ -20,7 +20,7 @@ const Archive = () => {
         title='Admin Dashboard'
         des='Customer admin dashboard  '
         listItem={['FontAwesome','VueJS','Bootstrap CSS',]}
-        link = 'https://github.com/obikabless/restaurant'
+        link = 'https://admin-dashboard234.netlify.app/'
         />
         <ArchiveCard 
         title='Twitter Quote Generator'
