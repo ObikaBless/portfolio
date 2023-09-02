@@ -23,7 +23,7 @@ const Banner = () => {
         className="text-4xl lgl:text-5xl font-titleFont font-semibold flex flex-col"
         >
           Bless C. Obika.<span className="text-textDark mt-2 lgl:mt-4"> 
-            A Creative Developer.
+            A Creative Frontend Developer.
             </span>
           </motion.h1>
           <motion.p 
