@@ -17,10 +17,10 @@ const Archive = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10
       lgl:px-10 '>
         <ArchiveCard 
-        title='Classic Restaurant'
-        des='Morden Restaurant UI with Classic taste '
-        listItem={['react-icons','ReacJS','Tailwind CSS',]}
-        link = 'https://github.com/obikabless/restaurant'
+        title='Admin Dashboard'
+        des='Customer admin dashboard  '
+        listItem={['FontAwesome','VueJS','Bootstrap CSS',]}
+        link = 'https://github.com/ObikaBless/admin-dashboard'
         />
         <ArchiveCard 
         title='Twitter Quote Generator'
@@ -37,11 +37,10 @@ const Archive = () => {
         link = 'https://github.com/obikabless'
         />
         <ArchiveCard 
-        title='Educare English Learning Academy'
-        des='Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        reiciendis tempore maxime molestias ipsam, ad atque ab?'
-        listItem={['ReacJS','Tailwind CSS','HTML']}
-        link = 'https://github.com/obikabless'
+        title='Classic Restaurant'
+        des='Morden Restaurant UI with Classic taste '
+        listItem={['react-icons','ReacJS','Tailwind CSS',]}
+        link = 'https://github.com/obikabless/restaurant'
         />
         <ArchiveCard 
         title='Educare English Learning Academy'

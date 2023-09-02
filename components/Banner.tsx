@@ -32,9 +32,9 @@ const Banner = () => {
           transition={{duration:0.5, delay:0.8}}
           className="text-base md:max-w-[650px] text-textDark font-medium">
             {" "}
-            I have 5plus years of experience in front-end software development,
+            I have several years of experience in front-end software development,
             working with web technologies such as
-            HTML5, CSS3, JavaScript, NodeJS, .NET, ASP.Net, C#. and mordern libries like React, TailwindCSS.
+            HTML5, CSS3, JavaScript, NodeJS, .NET, ASP.Net, C#. and mordern frameworks and libries like ReactJS, VueJS, TailwindCSS.
             My ability to translate design
             concepts into pixel-perfect, responsive websites has allowed me to deliver intuitive user experiences
             across multiple platforms. <br /> {" "}
