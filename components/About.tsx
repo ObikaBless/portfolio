@@ -55,25 +55,7 @@ const About = () => {
                     <span className="text-textGreen">
                         <AiFillThunderbolt />
                     </span>
-                    Nodejs
-                </li>
-                <li className="flex items-center gap-2">
-                    <span className="text-textGreen">
-                        <AiFillThunderbolt />
-                    </span>
                     ASP.NET
-                </li>
-                <li className="flex items-center gap-2">
-                    <span className="text-textGreen">
-                        <AiFillThunderbolt />
-                    </span>
-                    C#
-                </li>
-                <li className="flex items-center gap-2">
-                    <span className="text-textGreen">
-                        <AiFillThunderbolt />
-                    </span>
-                    .NET Core
                 </li>
                 <li className="flex items-center gap-2">
                     <span className="text-textGreen">
@@ -93,17 +75,24 @@ const About = () => {
                     </span>
                     TailwindCSS
                 </li>
-                <li className="flex items-center gap-2">
-                    <span className="text-textGreen">
-                        <AiFillThunderbolt />
-                    </span>
-                    Flutter
-                </li>
+
                 <li className="flex items-center gap-2">
                     <span className="text-textGreen">
                         <AiFillThunderbolt />
                     </span>
                     .NET
+                </li>
+                <li className="flex items-center gap-2">
+                    <span className="text-textGreen">
+                        <AiFillThunderbolt />
+                    </span>
+                    CSS
+                </li>
+                <li className="flex items-center gap-2">
+                    <span className="text-textGreen">
+                        <AiFillThunderbolt />
+                    </span>
+                    HTML
                 </li>
                 <li className="flex items-center gap-2">
                     <span className="text-textGreen">
