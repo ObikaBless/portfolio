@@ -350,7 +350,7 @@ const Navbar = () => {
                       <SlSocialLinkedin />
                     </span>
                   </motion.a>
-                  <motion.a
+                  {/* <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: "easeIn" }}
@@ -365,7 +365,7 @@ const Navbar = () => {
                     >
                       <SlSocialTwitter />
                     </span>
-                  </motion.a>
+                  </motion.a> */}
                 </div>
                 </div>
                 <motion.a 
