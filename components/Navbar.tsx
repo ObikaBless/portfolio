@@ -37,12 +37,12 @@ const Navbar = () => {
     e.currentTarget.classList.add("active");
   };
 
-  function handleClick(e:any){
-    if(e.target.contains(ref.current)){
-      //do something with myRef.current 
+  function handleClick(e: any) {
+    if (e.target.contains(ref.current)) {
+      //do something with myRef.current
       setShowMenu(false);
     }
-  };
+  }
   return (
     <div className="w-full shadow-navbarshadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor1 px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between ">
@@ -300,8 +300,10 @@ const Navbar = () => {
                     Resume
                   </motion.button>
                 </a>
-                <div className="sm:inline-flex items-center justify-center
-    w-full py-6 gap-4">
+                <div
+                  className="sm:inline-flex items-center justify-center
+    w-full py-6 gap-4"
+                >
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -367,15 +369,16 @@ const Navbar = () => {
                     </span>
                   </motion.a> */}
                 </div>
-                </div>
-                <motion.a 
-                  initial={{ y:20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay:1.5, ease: "easeIn"}}
-                  className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
-                  href="mailto:blesschinedumobika@gmail.com">
-                    blesschinedumobika@gmail.com
-                </motion.a>
+              </div>
+              <motion.a
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 1.5, ease: "easeIn" }}
+                className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
+                href="mailto:blesschinedumobika@gmail.com"
+              >
+                blesschinedumobika@gmail.com
+              </motion.a>
             </motion.div>
           </div>
         )}
